@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
 
-* {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -13,7 +12,6 @@
             background-color: #fff;
             color: #000;
         }
-
 
         body #wrapper {
             min-height: 100vh;
@@ -36,10 +34,11 @@
             margin-bottom: 10px;
             border-radius: 50%;
         }
+        
 
         body #wrapper li a {
             display: block;
-	    border: 2px solid rgb(79, 124, 254);
+            border: 2px solid rgb(79, 124, 254);
             color: #fff;
             background-color: rgb(79, 124, 254);
             padding: 18px 57px;
@@ -47,10 +46,12 @@
         }
 
         body #wrapper li a:hover {
+            display: block;
             border: 2px solid rgb(79, 124, 254);
             color: rgb(79, 124, 254);
             background-color: #fff;
-            transition: 0.3s;            
+            padding: 18px 57px;
+            transition: 0.3s;
         }
 
         body #wrapper li {
